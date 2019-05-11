@@ -34,5 +34,11 @@ public abstract class Account {
         }
 
     }
-    
+    public void addMoney(){}
+    private enum AccountType{;
+        private String personal;
+        private String company;
+
+    }
+
 }
