@@ -38,7 +38,7 @@ public abstract class Account {
     private enum AccountType{;
         private String personal;
         private String company;
-
     }
+    abstract void getType();
 
 }
